@@ -68,9 +68,13 @@ You should be able to access web server1 web site by using the public address
      http://web_server_public_address
      
 There will be an s3 bucket proving_web_server_1
+
 There will be a file in the s3 bucket containing webserver1 public ip address: public_ip.txt
+
 There will be a daily cron job on webserver2 to copy down the public ip address of webserver1 to the /data directory
+
 The expected security groups, launch template and target groups should also exists
+
 To remove the current build, first delete any files saved to s3 then run
 
     #terraform destroy -auto-approve
