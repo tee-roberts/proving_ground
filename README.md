@@ -56,11 +56,11 @@ A tag was added to the VPC- Name:Proving_Ground
 
 Terraform can now be run:
 
-   #cd ./proving_ground/terraform
-   #terraform init
-   #terraform
-   #terraform plan fmt
-   #terraform apply -auto-approve
+    #cd ./proving_ground/terraform
+    #terraform init
+    #terraform
+    #terraform plan fmt
+    #terraform apply -auto-approve
 
 Expected Results:
 You should be able to access web server1 web site by using the public address
