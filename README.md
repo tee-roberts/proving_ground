@@ -73,7 +73,7 @@ There will be a file in the s3 bucket containing webserver1 public ip address: p
 
 There will be a daily cron job on webserver2 to copy down the public ip address of webserver1 to the /data directory
 
-The expected security groups, launch template and target groups should also exists
+The expected security groups, launch templates, target groups and auto scaling groups should also exist for each server
 
 To remove the current build, first delete any files saved to s3 then run
 
